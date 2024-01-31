@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config'; 
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://login-signup-360.onrender.com';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
