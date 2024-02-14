@@ -176,7 +176,6 @@ const Login = ({isUserAuthenticated}) => {
             >
               Create an account
             </SignupButton>
-            <h4>by Ansari Mohammad Irfan</h4>
           </Wrapper>
         ) : (
           <Wrapper>
