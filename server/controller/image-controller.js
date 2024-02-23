@@ -1,7 +1,7 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = 'https://reflect-360.vercel.com';
+const url = 'reflect-server-360.vercel.app';
 
 
 let gfs, gridfsBucket;
