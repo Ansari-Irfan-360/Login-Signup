@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { API_NOTIFICATION_MESSAGES, SERVICE_URLS } from '../constants/config'; 
 
-const API_URL = 'https://reflect-login-signup.onrender.com';
+const API_URL = 'https://reflect-ibvy.onrender.com';
 
 const axiosInstance = axios.create({
     baseURL: API_URL,
