@@ -20,6 +20,5 @@ app.listen(port, () => {
 });
 
 dotenv.config();
-const username = process.env.DB_USERNAME;
-const password = process.env.DB_PASSWORD;
-Connection(username, password);
+const MONGODB_URL = process.env.MongoDB_URL;
+Connection(MONGODB_URL);
